@@ -1,0 +1,25 @@
+::placeholder ,select, option, label{
+    color: lightslategray !important;
+    opacity: 1; /* Firefox */
+    font-family: 'Poppins', sans-serif; !important;
+    font-size: 14px !important;
+}
+
+input[type=file]
+{
+    color: lightslategray !important;
+    font-family: 'Poppins', sans-serif; !important;
+    font-size: 14px !important;
+}
+
+::-ms-input-placeholder { /* Edge 12 -18 */
+    color: lightslategray;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px !important;
+}
+
+input
+{
+    font-family: 'Poppins', sans-serif; !important;
+    font-size: 14px !important;
+}
